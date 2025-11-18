@@ -1,0 +1,23 @@
+{
+  "name": "toolbox_automation_test1",
+  "version": "1.0.0",
+  "description": "Descripción: Este automation test en cypress, ejecuta un flujo de creación de usuario + login en la web automationexercise.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabloegp/toolbox_automation_test1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pabloegp/toolbox_automation_test1/issues"
+  },
+  "homepage": "https://github.com/pabloegp/toolbox_automation_test1#readme",
+  "devDependencies": {
+    "cypress": "^14.5.4"
+  }
+}
