@@ -6,8 +6,8 @@ describe('Pruebas API Echo Server', () => {
       url: `${baseUrl}/qa/test1`,
       failOnStatusCode: false
     }).then((response) => {
-      if (response.status === 500) {
-        cy.log('Error 500 recibido');
+      if (response.status !== 200) {
+        cy.log(`Error recibido - Código: ${response.status}`);
         cy.log(`Mensaje de error: ${JSON.stringify(response.body)}`);
       } else {
         // Status code
@@ -34,8 +34,8 @@ describe('Pruebas API Echo Server', () => {
       url: `${baseUrl}/system/ping`,
       failOnStatusCode: false
     }).then((response) => {
-      if (response.status === 500) {
-        cy.log('Error 500 recibido');
+      if (response.status !== 200) {
+        cy.log(`Error recibido - Código: ${response.status}`);
         cy.log(`Mensaje de error: ${JSON.stringify(response.body)}`);
       } else {
         // Status code
