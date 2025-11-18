@@ -3,9 +3,7 @@ Descripción: Este automation test en cypress, ejecuta un flujo de creación de 
 
 Pasos para ejecutar test:
 1. Clonar repositorio https://github.com/pabloegp/toolbox_automation_test1.git
-2. Validar que el equipo tenga Node.js y npm instalados usando en consola los comandos:
-node -v
-npm -v
+2. Validar que el equipo tenga Node.js y npm instalados usando en consola los comandos: "node -v" y "npm -v"
 en caso de no estar instalados, entonces proceder con instalación
 3. Inicializar proyecto con npm con comando "npm init -y" dentro de la carpeta del repo
 4. Instalar cypress como dependencia del desarrollo
